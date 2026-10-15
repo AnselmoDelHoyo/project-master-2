@@ -1,4 +1,5 @@
-// Ejercicio 1
+
+// EJERCICIO 1
 
 // 1. Define tu superhéroe favorito
 let miSuperheroeFavorito = "Hulk";

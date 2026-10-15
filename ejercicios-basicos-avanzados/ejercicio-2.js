@@ -1,5 +1,5 @@
 
-// EJERCICIO 2 — SOLUCIÓN
+// EJERCICIO 2
 
 // 1. Luke Skywalker cumple años
 const jedi = { nombre: "Luke Skywalker", edad: 19 };
