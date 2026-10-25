@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM — Ejercicio 3: listas y elementos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <p class="eyebrow">JavaScript Katas</p>
+      <h1>Listas y elementos dinámicos</h1>
+      <p>Ejercicios de creación, inserción y eliminación de nodos mediante JavaScript.</p>
+    </header>
+
+    <p class="fn-remove-me">Bye bye</p>
+
+    <section>
+      <h2>1.1 — Países</h2>
+      <div id="countries-list-container"></div>
+    </section>
+
+    <section>
+      <h2>1.3 — Coches</h2>
+      <div data-function="printHere"></div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>1.4–1.6 — Tarjetas de imágenes</h2>
+          <p>Prueba el botón general o elimina una tarjeta concreta.</p>
+        </div>
+        <button id="remove-last" class="button button-secondary" type="button">Eliminar última tarjeta</button>
+      </div>
+      <div id="country-cards" class="cards-grid"></div>
+      <p id="cards-empty-message" class="empty-message" hidden>No quedan tarjetas.</p>
+    </section>
+  </main>
+</body>
+</html>
