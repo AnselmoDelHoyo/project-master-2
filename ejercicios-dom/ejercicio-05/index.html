@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11131a">
+  <title>Vinilo — Selección de álbumes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Vinilo, inicio"><span class="brand-mark">◉</span> VINILO</a>
+    <span class="header-note">UNA LISTA PARA DARLE AL PLAY</span>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">La colección</p>
+      <h1 id="page-title">Álbumes que<br><span>merecen escucharse</span></h1>
+      <p class="intro">Cinco discos para llenar la habitación de guitarras, riffs y grandes canciones. Prepara los auriculares y dale al play.</p>
+      <div class="hero-meta"><span class="status-dot"></span> <span id="album-count">Cargando selección…</span></div>
+    </section>
+
+    <section class="album-section" aria-labelledby="album-heading">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">En la lista</p>
+          <h2 id="album-heading">Selección de álbumes</h2>
+        </div>
+        <span class="index-label">01 — 05</span>
+      </div>
+      <ul id="album-list" class="album-list" aria-label="Lista de álbumes"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>VINILO / MUSIC NOTES</span>
+    <span>Hecho para escuchar sin prisa.</span>
+  </footer>
+</body>
+</html>
